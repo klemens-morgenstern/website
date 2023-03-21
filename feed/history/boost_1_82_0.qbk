@@ -170,6 +170,11 @@ or GCC before 4.8.
   * Implemented `boost::pfr::get` by type of an element in the aggregate.
   * Multiple fixes and improvements for the docs.
 
+* [phrase library..[@/libs/process/ Process]:]
+  * Deprecated unreliable wait_for & wait_until functions.
+  * Completed feature set of V2
+  * Added tool to inspect foreign processes (env, cmd, exe) to V2.
+
 * [phrase library..[@/libs/static_string/ StaticString]:]
   * Boost.Core `string_view` and `std::string_view` interoperability
 
